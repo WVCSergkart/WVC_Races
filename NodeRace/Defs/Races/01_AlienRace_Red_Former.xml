@@ -86,24 +86,30 @@
 	<!-- ==================================================================== -->
 
 	<comps>
-		<li MayRequire="oskarpotocki.vanillafactionsexpanded.core" Class="VFECore.CompProperties_ShieldBubble">
-		  <EnergyShieldRechargeRate>2.5</EnergyShieldRechargeRate>
-		  <EnergyShieldEnergyMax>120</EnergyShieldEnergyMax>
-		  <blockRangedAttack>true</blockRangedAttack>
-		  <blockMeleeAttack>true</blockMeleeAttack>
-		  <shieldTexPath>Other/ShieldBubble</shieldTexPath>
-		  <showWhenDrafted>true</showWhenDrafted>
-		  <showAlways>false</showAlways>
-		  <showOnHostiles>true</showOnHostiles>
-		  <showOnNeutralInCombat>true</showOnNeutralInCombat>
-		  <maxShieldSize>1.8</maxShieldSize>
-		  <minShieldSize>1.4</minShieldSize>
-		  <shieldColor>(255,133,133)</shieldColor>
-		  <!-- <EnergyLossPerDamage>5</EnergyLossPerDamage> -->
-		  <!-- <disableRotation>true</disableRotation> -->
-		  <absorbDamageSound>EnergyShield_AbsorbDamage</absorbDamageSound>
-		  <brokenSound>EnergyShield_Broken</brokenSound>
-		  <resetSound>EnergyShield_Reset</resetSound>
+		<!-- <li MayRequire="oskarpotocki.vanillafactionsexpanded.core" Class="VFECore.CompProperties_ShieldBubble"> -->
+		  <!-- <EnergyShieldRechargeRate>2.5</EnergyShieldRechargeRate> -->
+		  <!-- <EnergyShieldEnergyMax>120</EnergyShieldEnergyMax> -->
+		  <!-- <blockRangedAttack>true</blockRangedAttack> -->
+		  <!-- <blockMeleeAttack>true</blockMeleeAttack> -->
+		  <!-- <shieldTexPath>Other/ShieldBubble</shieldTexPath> -->
+		  <!-- <showWhenDrafted>true</showWhenDrafted> -->
+		  <!-- <showAlways>false</showAlways> -->
+		  <!-- <showOnHostiles>true</showOnHostiles> -->
+		  <!-- <showOnNeutralInCombat>true</showOnNeutralInCombat> -->
+		  <!-- <maxShieldSize>1.8</maxShieldSize> -->
+		  <!-- <minShieldSize>1.4</minShieldSize> -->
+		  <!-- <shieldColor>(255,133,133)</shieldColor> -->
+		  <!-- <absorbDamageSound>EnergyShield_AbsorbDamage</absorbDamageSound> -->
+		  <!-- <brokenSound>EnergyShield_Broken</brokenSound> -->
+		  <!-- <resetSound>EnergyShield_Reset</resetSound> -->
+		<!-- </li> -->
+		<li Class="CompProperties_Shield">
+			<startingTicksToReset>1500</startingTicksToReset>
+			<minDrawSize>1.6</minDrawSize>
+			<maxDrawSize>2.2</maxDrawSize>
+			<energyLossPerDamage>0.01</energyLossPerDamage>
+			<energyOnReset>4.0</energyOnReset>
+			<blocksRangedWeapons>false</blocksRangedWeapons>
 		</li>
 	</comps>
 

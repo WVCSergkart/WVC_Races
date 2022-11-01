@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 
 <ModMetaData>
-	<name>WVC - Races</name>
+	<name>WVC - Races (HAR)</name>
 	<author>Sergkart</author>
 	<supportedVersions>
 		<li>1.4</li>
@@ -39,7 +39,7 @@
 		<li>Ludeon.RimWorld.Royalty</li>
 		<li>Ludeon.RimWorld.Ideology</li>
 		<!-- - -->
-		<!-- <li>honkai.girls.sergkart</li> -->
+		<li>wvc.sergkart.core</li>
 	</loadAfter>
 	<loadBefore>
 		<li>honkai.girls.sergkart</li>
