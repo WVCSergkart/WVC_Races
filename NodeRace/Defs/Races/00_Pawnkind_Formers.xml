@@ -22,6 +22,11 @@
 		<!-- <apparelTags> -->
 		  <!-- <li>IndustrialBasic</li> -->
 		<!-- </apparelTags> -->
+		<xenotypeSet>
+		  <xenotypeChances>
+			<Baseliner MayRequire="Ludeon.RimWorld.Biotech">999</Baseliner>
+		  </xenotypeChances>
+		</xenotypeSet>
 		<backstoryFiltersOverride>
 		  <li>
 			<categories>

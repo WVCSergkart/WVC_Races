@@ -30,6 +30,11 @@
 	<disallowedTraits>
 	  <li>Brawler</li>
 	</disallowedTraits>
+	<xenotypeSet>
+	  <xenotypeChances>
+		<Baseliner MayRequire="Ludeon.RimWorld.Biotech">999</Baseliner>
+	  </xenotypeChances>
+	</xenotypeSet>
 	<inventoryOptions>
 	  <skipChance>0.9</skipChance>
 	  <subOptionsChooseOne>
