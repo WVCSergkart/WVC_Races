@@ -251,14 +251,13 @@
 			<onlyDoRaceRestrictedRecipes>false</onlyDoRaceRestrictedRecipes>
 			<recipeList>
 			</recipeList>
-			<onlyGetRaceRestrictedTraits>true</onlyGetRaceRestrictedTraits>
+			<onlyGetRaceRestrictedTraits>false</onlyGetRaceRestrictedTraits>
 			<whiteTraitList>
-				<li>Kind</li>
-				<!-- <li>Bloodlust</li> -->
-				<li>Abrasive</li>
-				<li>FastLearner</li>
-				<li>SlowLearner</li>
-				<li>Tough</li>
+				<!-- <li>Kind</li> -->
+				<!-- <li>Abrasive</li> -->
+				<!-- <li>FastLearner</li> -->
+				<!-- <li>SlowLearner</li> -->
+				<!-- <li>Tough</li> -->
 			</whiteTraitList>
 			<traitList>
 				<li MayRequire="honkai.girls.sergkart">Valkyrie_Herrschers_WVC</li>
