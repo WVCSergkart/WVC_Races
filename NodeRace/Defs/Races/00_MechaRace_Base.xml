@@ -213,6 +213,8 @@
 				<li MayRequire="vanillaexpanded.vanillatraitsexpanded">VTE_Stoner</li>
 				<li MayRequire="vanillaexpanded.vanillatraitsexpanded">VTE_Lush</li>
 			</blackTraitList>
+			<canReproduce>false</canReproduce>
+			<onlyHaveRaceRestrictedGenes>true</onlyHaveRaceRestrictedGenes>
 		</raceRestriction>
 		<compatibility>
 			<isFlesh>false</isFlesh>

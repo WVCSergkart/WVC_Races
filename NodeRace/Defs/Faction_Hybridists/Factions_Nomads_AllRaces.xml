@@ -329,7 +329,7 @@
 			<canSpawnSettlements>false</canSpawnSettlements>
 		</li>
 		<li Class="VFECore.FactionDefExtension">
-			<shouldHaveLeader>false</shouldHaveLeader>
+			<!-- <shouldHaveLeader>false</shouldHaveLeader> -->
 			<excludeFromCommConsole>true</excludeFromCommConsole>
 		</li>
 	</modExtensions>

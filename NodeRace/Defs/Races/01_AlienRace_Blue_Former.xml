@@ -286,6 +286,9 @@
 			</petList>
 			<weaponList>
 			</weaponList>
+			<canReproduce>false</canReproduce>
+			<onlyHaveRaceRestrictedGenes>true</onlyHaveRaceRestrictedGenes>
+			<!-- <onlyUseRaceRestrictedXenotypes>true</onlyUseRaceRestrictedXenotypes> -->
 			<!-- <workGiverList> -->
 			<!-- </workGiverList> -->
 		</raceRestriction>
